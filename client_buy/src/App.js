@@ -9,8 +9,9 @@ import Contact from './Component/Contact';
 const App = () => {
   return (
      <>
-     <Routes>
+     
     <Navbar />
+     <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path ="about" element={<About/>}/>
         <Route path ="contact" element ={<Contact/>} />
