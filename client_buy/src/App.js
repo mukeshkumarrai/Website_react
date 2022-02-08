@@ -8,6 +8,7 @@ import Contact from './Component/Contact';
 
 const App = () => {
   return (
+
     <>
      <Routes>
     <Navbar />
@@ -19,6 +20,8 @@ const App = () => {
    
     </>
   )
+
+   
 }
 
 export default App
